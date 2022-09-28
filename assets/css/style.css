@@ -220,12 +220,14 @@ h2{
 }
 .contentimg3{
   width: 48%;
-  height: 10%;
+  
   padding-top: 5px;
 }
 @media only screen and (max-width: 1000px) {
   .contentimg3{
       width:100%;
+      order:1;
+      
       }
     }
 .tekst2{
@@ -238,5 +240,11 @@ h2{
   .tekst2{
       width:95%;
       padding: 5px 5px 5px 5px;
+      order:2;
+      
       }
+  
+    #section2{
+      display: inline-grid;
     }
+  }
