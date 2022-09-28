@@ -191,3 +191,52 @@ input[type="checkbox"]{
     height:10%;
     padding-top: 5px;
 }
+@media only screen and (max-width: 1000px) {
+  .contentimg2{
+      width:100%;
+      }
+}
+content{
+    display: inline-block;
+}
+
+h2{
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.tekst1{
+  display: inline-block;
+  width: 48%;  
+  vertical-align: top;
+
+}
+@media only screen and (max-width: 1000px) {
+  .tekst1{
+      width:95%;
+      padding: 5px 5px 5px 5px;
+      }
+}
+.contentimg3{
+  width: 48%;
+  height: 10%;
+  padding-top: 5px;
+}
+@media only screen and (max-width: 1000px) {
+  .contentimg3{
+      width:100%;
+      }
+    }
+.tekst2{
+  display: inline-block;
+  width: 50%;  
+  vertical-align: top;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 1000px) {
+  .tekst2{
+      width:95%;
+      padding: 5px 5px 5px 5px;
+      }
+    }
