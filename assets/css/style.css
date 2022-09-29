@@ -216,7 +216,7 @@ h2{
       }
 }
 .contentimg3{
-  width: 48%;
+  width: 50%;
   padding-top: 5px;
 }
 @media only screen and (max-width: 1000px) {
@@ -228,9 +228,10 @@ h2{
     }
 .tekst2{
   display: inline-block;
-  width: 50%;  
+  width: calc(50% - 4px);  
   vertical-align: top;
   padding-left: 5px;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 1000px) {
   .tekst2{
@@ -260,7 +261,7 @@ h2{
     background-color: #323131;
     height: 65px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0px;
   }
   .footersymbols ul li{
