@@ -183,9 +183,6 @@ input[type="checkbox"]{
     height:10%;
     padding-top: 64px;
 }
-#container, #content{
-    overflow-x: hidden;
-}
 .contentimg2{
     width:50%;
     height:10%;
@@ -220,7 +217,6 @@ h2{
 }
 .contentimg3{
   width: 48%;
-  
   padding-top: 5px;
 }
 @media only screen and (max-width: 1000px) {
@@ -248,3 +244,38 @@ h2{
       display: inline-grid;
     }
   }
+  /* footer */
+  .footersymbols ul{
+    position:absolute;
+    left:45%;
+    padding: 0;
+    margin: 0;  
+  } 
+  @media only screen and (max-width: 1000px) {
+    .footersymbols ul{
+      left: 30%;
+    }
+      }
+  #footer{
+    background-color: #323131;
+    height: 65px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .footersymbols ul li{
+    list-style: none;
+    margin: auto 45px auto auto;
+    display: inline-block;
+  } 
+  .footersymbols ul li .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color:whitesmoke;
+    transition: 90ms;  
+  }
+  .footersymbols ul li .fa:hover{
+    transform: translate(0, -10px);
+    color: rgb(0, 187, 255);
+  }
+  
